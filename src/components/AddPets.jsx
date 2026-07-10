@@ -8,7 +8,9 @@ const AddPets = () => {
         <div className="container">
             <div className="row">
                 <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
-                    <div className="row">
+                   <center><u> <h2 style={{color:"#77DD77"}}>🐾 Add Pets</h2></u></center>
+                    <br></br>
+                    <div className="row g-3">
                         <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
 
@@ -65,7 +67,7 @@ const AddPets = () => {
                         <div className="col col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
 
 
-                                <label htmlFor="" className="form-label">Vaccinated</label>
+                                <label htmlFor="" className="form-label">Vaccinated</label><br></br>
                              Yes<input type="radio" name="vacc" id="" />
                               No<input type="radio" name="vacc" id="" />
 

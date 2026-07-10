@@ -24,6 +24,9 @@ const ViewPets = () => {
             <div className="container">
                 <div className="row">
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                         
+                                       <center><u> <h2 style={{color:"#77DD77"}}>🐶🔍 𝓥𝓲𝓮𝔀 𝓟𝓮𝓽𝓼 🐱</h2></u></center>
+                    <br></br>
                         <div className="row">
                            {data.map(
                             (value,index)=>{
